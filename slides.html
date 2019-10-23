@@ -6,123 +6,143 @@
     <meta name="author" content="Matt Farrow" />
     <meta name="date" content="2017-11-08" />
     <link href="slides_files/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="slides_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <script src="slides_files/kePrint-0.0.1/kePrint.js"></script>
+    <link rel="stylesheet" href="css/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/my-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
 # I Didn’t Know Excel Could Do That
-## Matt Farrow <span class="citation">@_MattFarrow</span>
 ### Matt Farrow
 ### November 8, 2017
 
 ---
 
 
-![](images/image1.jpg)
+class: middle
 
+.pull-left[
 
----
+# What I feel qualified to teach.
 
-![](images/image2.PNG)
+]
 
----
-#  Considerations before you start in Excel 
+.pull-right[
 
-![](images/image3.png)
+![fake o'reilly](images/image1.jpg)
 
-
----
-#  Don’t Try to Copy Everything 
-
-![](images/image4.gif)
-
+]
 
 ---
 
-![](images/image5.jpg)
+class: center, middle
+background-color: #F56D0B
 
+# seriously.
 
----
-#  navigation 
-
-![](images/image6.jpg)
-
+![excel championships](images/image2.PNG)
 
 ---
 
-![](images/image7.PNG)
+class: center, middle
 
+#  **Considerations before you start in Excel**
+
+![emoji](images/image3.png)
+
+---
+
+class: center, middle
+
+#  Don’t Try to Copy Everything
+
+![kermit](images/image4.gif)
 
 ---
 
-.pull-left[![](images/image7.PNG)]
+class: center, middle
+background-image: url("images/image5.jpg")
 
-.pull-right[![](images/image8.png)]
-
+## navigation
+## manipulation
+## visualization
 
 ---
+
+class: center, middle
+background-image: url("images/image6.jpg")
+
+#  &lt;font color="red"&gt;navigation&lt;/font&gt;
+
+---
+
+# window management
+
+![window management](images/image7.PNG)
+
+--
+
+![](images/image8.PNG)
+
+--
 
 ![](images/image9.PNG)
 
+---
+
+# filters
+
+![filters](images/image10.PNG)
 
 ---
 
-![](images/image10.PNG)
+# filters
 
-
----
-
-.pull-left[![](images/image10.PNG)]
-
-.pull-right[![](images/image11.png)]
-
+![filters 2](images/image12.PNG)
 
 ---
 
-![](images/image12.PNG)
+class: center, middle
+background-image: url("images/image13.jpg")
 
-
----
-
-![](images/image12.PNG)
-
+# Manipulation
 
 ---
 
+class: center, middle 
 
-
----
-
-
-
----
-
-
-
----
-
-![](images/image13.jpg)
-
-
----
 #  formulas 
 
-+ “A formula performs calculations or other actions on the data in your worksheet .”
-+ *Microsoft Support*
+“A formula performs calculations or other actions on the data in your worksheet.”
+
+*Microsoft Support*
 
 ---
 
+# vlookup
 
+=**VLOOKUP**(&lt;font color="red"&gt;Value to look up&lt;/font&gt;, &lt;font color="blue"&gt;Range to look for value&lt;/font&gt;,
+&lt;font color="orange"&gt;Column for the return value&lt;/font&gt;, &lt;font color="green"&gt;Type of match&lt;/font&gt;)
+
+=VLOOKUP(&lt;font color="red"&gt;A1&lt;/font&gt;, &lt;font color="blue"&gt;Lookup!A1:B7&lt;/font&gt;, &lt;font color="orange"&gt;2&lt;/font&gt;, &lt;font color="green"&gt;TRUE&lt;/font&gt;)
 
 ---
 
+# absolute/relative references
 
+Relative references **can** move.
+
+A1
+
+Absolute references **can't** move.
+
+$A$1
 
 ---
 
+# absolute/relative references
 
 &lt;table class="table" style="font-size: 18px; margin-left: auto; margin-right: auto;"&gt;
  &lt;thead&gt;
@@ -143,72 +163,137 @@ class: center, middle, inverse, title-slide
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+---
+
+# countif
+
+=**COUNTIF**(&lt;font color="red"&gt;Where are we looking?&lt;/font&gt;, &lt;font color="blue"&gt;What are we looking for?&lt;/font&gt;)
+
+=COUNTIF(&lt;font color="red"&gt;A:A&lt;/font&gt;, &lt;font color="blue"&gt;"Washington"&lt;/font&gt;)
 
 ---
 
+# concatenate
+
+=**CONCATENATE**(&lt;font color="red"&gt;1st Cell&lt;/font&gt;, &lt;font color="blue"&gt;Separator&lt;/font&gt;, &lt;font color="orange"&gt;2nd cell&lt;/font&gt;, ...)
+
+=COUNTIF(&lt;font color="red"&gt;A1&lt;/font&gt;, &lt;font color="blue"&gt;" "&lt;/font&gt;, &lt;font color="orange"&gt;"B2"&lt;/font&gt;, C2)
 
 ---
 
+# date difference
+
+.pull-left[
+
+=**DATEDIF**(&lt;font color="red"&gt;Start date&lt;/font&gt;, &lt;font color="blue"&gt;End date&lt;/font&gt;, &lt;font color="orange"&gt;Difference calculation&lt;/font&gt;, ...)
+
+=DATEDIF(&lt;font color="red"&gt;A1&lt;/font&gt;, &lt;font color="blue"&gt;"A2"&lt;/font&gt;, &lt;font color="orange"&gt;"d"&lt;/font&gt;)
+
+]
+
+.pull-right[
+
+- Today's date: today()
+- Difference in days: "d"
+- Difference in weeks: ..."d")/7
+- Difference in months: "m"
+- Difference in years: "y"
+
+]
 
 ---
 
+# if
 
+=**IF**(&lt;font color="red"&gt;logical test&lt;/font&gt;, &lt;font color="blue"&gt;value if true&lt;/font&gt;, &lt;font color="orange"&gt;value if false&lt;/font&gt;, ...)
+
+=IF(&lt;font color="red"&gt;A1=B1&lt;/font&gt;, &lt;font color="blue"&gt;"Match"&lt;/font&gt;, &lt;font color="orange"&gt;"No Match"&lt;/font&gt;)
+
+---
+
+# other tricks
+
+**Extract date element**
+=YEAR(A1)
+
+**Generate random number between 0 and 1**
+=RAND()
 
 ---
 
-
----
-
-
----
 #  macros 
 
-+ “A macro is an action or a set of actions that you can run as many times as you want .”
-+ *Microsoft Support*
+“A macro is an action or a set of actions that you can run as many times as you want.”
 
+*Microsoft Support*
 
----
-
-![](images/image14.PNG)
+![macros](images/image14.PNG)
 
 ---
+
+class: center, middle
+
 #  pivot tables 
 
-+ “PivotTables are a great way to summarize, analyze, explore, and present your data, and you can create them with just a few clicks .”
-+ *Microsoft Support*
+“PivotTables are a great way to summarize, analyze, explore, and present your data, and you can create them with just a few clicks.”
 
-
----
-
-![](images/image15.PNG)
+*Microsoft Support*
 
 ---
 
-![](images/image16.PNG)
+# pivot tables
+
+.pull-left[
+
+![pivot location](images/image15.PNG)
+
+]
+
+.pull-right[
+
+![pivot detail](images/image16.PNG)
+
+]
 
 ---
 
-![](images/image17.PNG)
+# slicers
 
-
----
-
-![](images/image18.jpg)
-
+![slicers](images/image17.PNG)
 
 ---
 
-![](images/image19.PNG)
+class: center, middle
+background-image: url("images/image18.jpg")
+
+# visualization
 
 ---
 
-![](images/image20.PNG)
+# pivot charts
+
+![pivot chart](images/image19.PNG)
 
 ---
 
+class: center, middle
+background-image: url("images/image20.png")
+
+# mapping
 
 ---
 
+# Power Map
+
+## &lt;font color="red"&gt;Requires Office 365 ProPlus&lt;/font&gt;
+
+---
+
+# be aware...
+
+## &lt;font color="black"&gt;"Power Map uses Bing to geocode your data based on its geographic properties."&lt;/font&gt;
+
+#### &lt;font color="black"&gt;"*Microsoft Office Support*&lt;/font&gt;
 
 ---
 
@@ -218,15 +303,21 @@ class: center, middle, inverse, title-slide
 
 ---
 
-![](images/image23.png)
+# Other Apra Resources
+
+![other excel 1](images/image23.png)
 
 ---
 
-![](images/image24.png)
+# Other Apra Resources
+
+![other excel 2](images/image24.png)
 
 ---
 
-![](images/image25.png)
+# Other Apra Resources
+
+![other excel 3](images/image25.png)
 
 ---
     </textarea>

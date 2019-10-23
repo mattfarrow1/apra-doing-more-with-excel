@@ -2,7 +2,7 @@
 title: ' I Didn’t Know Excel Could Do That '
 subtitle: 'Matt Farrow @_MattFarrow'
 author: Matt Farrow
-date: 2019-10-23
+date: "November 8, 2017"
 output:
   xaringan::moon_reader:
   lib_dir: libs
@@ -12,77 +12,73 @@ output:
     countIncrementalSlides: false
 ---
 
-![](assets/img/image1.jpg)
+![](images/image1.jpg)
 
 
 ---
 
-![](assets/img/image2.PNG)
+![](images/image2.PNG)
 
 ---
 #  Considerations before you start in Excel 
 
-![](assets/img/image3.png)
+![](images/image3.png)
 
 
 ---
 #  Don’t Try to Copy Everything 
 
-![](assets/img/image4.gif)
+![](images/image4.gif)
 
 
 ---
 
-![](assets/img/image5.jpg)
+![](images/image5.jpg)
 
 
 ---
 #  navigation 
 
-![](assets/img/image6.jpg)
+![](images/image6.jpg)
 
 
 ---
 
-![](assets/img/image7.PNG)
+![](images/image7.PNG)
 
 
 ---
 
-.pull-left[![](assets/img/image7.PNG)]
+.pull-left[![](images/image7.PNG)]
 
-.pull-right[![](assets/img/image8.png)]
-
-
----
-
-![](assets/img/image9.PNG)
+.pull-right[![](images/image8.png)]
 
 
 ---
 
-![](assets/img/image10.PNG)
+![](images/image9.PNG)
 
 
 ---
 
-.pull-left[![](assets/img/image10.PNG)]
-
-.pull-right[![](assets/img/image11.png)]
+![](images/image10.PNG)
 
 
 ---
 
-![](assets/img/image12.PNG)
+.pull-left[![](images/image10.PNG)]
+
+.pull-right[![](images/image11.png)]
 
 
 ---
 
-![](assets/img/image12.PNG)
+![](images/image12.PNG)
 
 
 ---
 
+![](images/image12.PNG)
 
 
 ---
@@ -95,7 +91,11 @@ output:
 
 ---
 
-![](assets/img/image13.jpg)
+
+
+---
+
+![](images/image13.jpg)
 
 
 ---
@@ -151,7 +151,7 @@ kableExtra::kable_styling(knitr::kable(tbl21), font_size = 18)
 
 ---
 
-![](assets/img/image14.PNG)
+![](images/image14.PNG)
 
 ---
 #  pivot tables 
@@ -162,53 +162,53 @@ kableExtra::kable_styling(knitr::kable(tbl21), font_size = 18)
 
 ---
 
-![](assets/img/image15.PNG)
+![](images/image15.PNG)
 
 ---
 
-![](assets/img/image16.PNG)
+![](images/image16.PNG)
 
 ---
 
-![](assets/img/image17.PNG)
-
-
----
-
-![](assets/img/image18.jpg)
+![](images/image17.PNG)
 
 
 ---
 
-![](assets/img/image19.PNG)
+![](images/image18.jpg)
+
 
 ---
 
-![](assets/img/image20.PNG)
+![](images/image19.PNG)
 
 ---
 
+![](images/image20.PNG)
 
 ---
 
 
 ---
 
-.pull-left[![](assets/img/image22.PNG)]
-
-.pull-right[![](assets/img/image21.PNG)]
 
 ---
 
-![](assets/img/image23.png)
+.pull-left[![](images/image22.PNG)]
+
+.pull-right[![](images/image21.PNG)]
 
 ---
 
-![](assets/img/image24.png)
+![](images/image23.png)
 
 ---
 
-![](assets/img/image25.png)
+![](images/image24.png)
+
+---
+
+![](images/image25.png)
 
 ---
 

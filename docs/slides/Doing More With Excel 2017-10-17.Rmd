@@ -1,0 +1,214 @@
+---
+title: ' I Didn’t Know Excel Could Do That '
+subtitle: 'Matt Farrow @_MattFarrow'
+author: Matt Farrow
+date: 2019-10-23
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+
+![](assets/img/image1.jpg)
+
+
+---
+
+![](assets/img/image2.PNG)
+
+---
+#  Considerations before you start in Excel 
+
+![](assets/img/image3.png)
+
+
+---
+#  Don’t Try to Copy Everything 
+
+![](assets/img/image4.gif)
+
+
+---
+
+![](assets/img/image5.jpg)
+
+
+---
+#  navigation 
+
+![](assets/img/image6.jpg)
+
+
+---
+
+![](assets/img/image7.PNG)
+
+
+---
+
+.pull-left[![](assets/img/image7.PNG)]
+
+.pull-right[![](assets/img/image8.png)]
+
+
+---
+
+![](assets/img/image9.PNG)
+
+
+---
+
+![](assets/img/image10.PNG)
+
+
+---
+
+.pull-left[![](assets/img/image10.PNG)]
+
+.pull-right[![](assets/img/image11.png)]
+
+
+---
+
+![](assets/img/image12.PNG)
+
+
+---
+
+![](assets/img/image12.PNG)
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+![](assets/img/image13.jpg)
+
+
+---
+#  formulas 
+
++ “A formula performs calculations or other actions on the data in your worksheet .”
++ *Microsoft Support*
+
+---
+
+
+
+---
+
+
+
+---
+
+
+```{r tbl21, echo = FALSE}
+tbl21 <- tibble::tribble(
+~`$A$2`, ~`The column and the row do not change when copied.`,
+"A$2","The row does not change when copied.",
+"$A2","The column does not change when copied."
+)
+
+kableExtra::kable_styling(knitr::kable(tbl21), font_size = 18)
+```
+
+
+---
+
+
+---
+
+
+---
+
+
+
+---
+
+
+---
+
+
+---
+#  macros 
+
++ “A macro is an action or a set of actions that you can run as many times as you want .”
++ *Microsoft Support*
+
+
+---
+
+![](assets/img/image14.PNG)
+
+---
+#  pivot tables 
+
++ “PivotTables are a great way to summarize, analyze, explore, and present your data, and you can create them with just a few clicks .”
++ *Microsoft Support*
+
+
+---
+
+![](assets/img/image15.PNG)
+
+---
+
+![](assets/img/image16.PNG)
+
+---
+
+![](assets/img/image17.PNG)
+
+
+---
+
+![](assets/img/image18.jpg)
+
+
+---
+
+![](assets/img/image19.PNG)
+
+---
+
+![](assets/img/image20.PNG)
+
+---
+
+
+---
+
+
+---
+
+.pull-left[![](assets/img/image22.PNG)]
+
+.pull-right[![](assets/img/image21.PNG)]
+
+---
+
+![](assets/img/image23.png)
+
+---
+
+![](assets/img/image24.png)
+
+---
+
+![](assets/img/image25.png)
+
+---
+

@@ -4,27 +4,19 @@ author: Matt Farrow
 date: "November 8, 2017"
 output:
   xaringan::moon_reader:
-    css: ["default", "css/my-theme.css", "css/my-fonts.css"]
   lib_dir: libs
   nature:
     highlightStyle: github
     highlightLines: true
     countIncrementalSlides: false
+ 
 ---
 
-class: middle
-
-.pull-left[
+class: center, middle
 
 # What I feel qualified to teach.
 
-]
-
-.pull-right[
-
 ![fake o'reilly](images/image1.jpg)
-
-]
 
 ---
 
@@ -62,8 +54,8 @@ background-image: url("images/image5.jpg")
 
 ---
 
-class: center, middle
 background-image: url("images/image6.jpg")
+background-size: cover
 
 #  <font color="red">navigation</font>
 
@@ -95,10 +87,12 @@ background-image: url("images/image6.jpg")
 
 ---
 
-class: center, middle
-background-image: url("images/image13.jpg")
+class: center
 
-# Manipulation
+background-image: url("images/image13.jpg")
+background-size: cover
+
+## <font color="green">manipulation</font>
 
 ---
 

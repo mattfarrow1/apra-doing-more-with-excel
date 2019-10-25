@@ -130,10 +130,9 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 }
 
 .title-slide {
-  background-image: url(../images/protea-banner.png);
-  background-position: top;
-  background-size: contain;
-  background-color: #e7553c;
+  background-image: url("images/image8.png");
+  background-size: cover;
+  background-color: #17A2B8;
 }
 
 
@@ -255,4 +254,10 @@ div.my-footer span {
 /* fix hljs output code color to have more contrast */
 .hljs-dracula .hljs-comment, .hljs-dracula .hljs-quote, .hljs-dracula .hljs-deletion, .hljs-dracula .hljs-meta {
 	color: #17A2B8;
+}
+
+/* custom css */
+.img-scale {
+  padding: 5px;
+  width: 150px;
 }

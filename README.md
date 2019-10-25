@@ -1,3 +1,3 @@
 # apra-doing-more-with-excel
 
-View slides [here](http://mattfarrow.org/apra-doing-more-with-excel/slides#1)
+View slides [here](https://mattfarrow1.github.io/apra-doing-more-with-excel/slides#1)
